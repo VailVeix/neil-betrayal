@@ -57,8 +57,6 @@ const rows = [
 const useStyles = makeStyles(() => ({
     root: {
         "& .MuiDataGrid-cell": {
-            height: '100%',
-            width: '100%',
         }
     },
   }));
@@ -71,8 +69,8 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <p>Neil's Betrayal 2021</p>
-                <DataGrid className={classes.root} rows={rows} columns={columns} autoHeight />
             </header>
+            <DataGrid className='{classes.root}' rows={rows} columns={columns} autoHeight />
         </div>
     );
 }

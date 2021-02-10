@@ -3,24 +3,9 @@
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-.wow-grid{
-  width: 100%;
-}
-
-.label{
-  display:block;
-  text-align: left;
-}
-
-.itemIcon{
-  display:block;
-  text-align: left;
 }
