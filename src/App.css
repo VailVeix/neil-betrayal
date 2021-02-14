@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  /*background-color: #1b262c;
-  color: white;*/
+  background-color: #1b262c;
+  color: white;
 }
 
 .App-header {
@@ -15,4 +15,49 @@
 .title{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: baseline;
+}
+
+.refreshButton{
+  padding: 25px;
+}
+
+.itemIcon{
+  width: 3vw;
+  height: 3vw;
+}
+
+.classIcon{
+  width: 3vw;
+  height: 3vw;
+}
+
+.levelText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.container{
+  position: relative;
+  text-align: center;
+}
+
+.normalItem{
+  color: #fff;
+}
+
+.heroicItem{
+  color: #fb76ec;
+}
+
+.epicItem{
+  color: #ff8000;
 }
