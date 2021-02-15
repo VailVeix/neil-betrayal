@@ -172,7 +172,7 @@ function App() {
                     <Button size="large" disabled={isSending} onClick={sendRequest} variant="contained">Refresh All Equipment</Button>
                 </div>
 
-                <DataGrid className={classes.root} rows={rows} columns={columns} autoHeight rowHeight="55" />
+                <div style={{width:'100vw', height:'90vh'}}><DataGrid className={classes.root} rows={rows} columns={columns} /></div>
             </div>
         );
     }
